@@ -12,9 +12,9 @@ double s2;
 
 void setup () {
   Serial.begin(9600);
-  servo1.attach(3,544,2400);
-  servo2.attach(4,544,2400);
-  servo3.attach(2,544,2400);
+  servo1.attach(3,544,2400); // Arm Servo
+  servo2.attach(4,544,2400); // Base Servo
+  servo3.attach(2,544,2400); // Pen Servo
 }
 
 void loop () {
